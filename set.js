@@ -8,15 +8,15 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'FLASH-MD-WA-BOT;;;=>',
-    PREFIXE: process.env.PREFIX || "+",
-    OWNER_NAME: process.env.OWNER_NAME || "France King",
-    OWNER_NUMBER : process.env.OWNER_NUMBER || "254105915061", 
+    PREFIXE: process.env.PREFIX || ".",
+    OWNER_NAME: process.env.OWNER_NAME || "Culxez",
+    OWNER_NUMBER : process.env.OWNER_NUMBER || "2347080376875", 
              
     AUTO_READ_STATUS: process.env.AUTO_VIEW_STATUS || "on",
 AUTOREAD_MESSAGES: process.env.AUTO_READ_MESSAGES || "off",
 CHATBOT: process.env.CHAT_BOT || "on",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_SAVE_STATUS || 'off',
-    BOT : process.env.BOT_NAME || 'FLASH-MD',
+    BOT : process.env.BOT_NAME || 'Error',
     //OPENAI_API_KEY : process.env.OPENAI_API_KEY || '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',
     URL : process.env.BOT_MENU_LINKS || 'https://static.animecorner.me/2023/08/op2.jpg',
     MODE: process.env.BOT_MODE || "private",
@@ -27,7 +27,7 @@ CHATBOT: process.env.CHAT_BOT || "on",
     PRESENCE : process.env.PRESENCE || '',
     //GPT : process.env.OPENAI_API_KEY || '',
     DP : process.env.STARTING_MESSAGE || "on",
-    ADM : process.env.ANTI_DELETE_MESSAGE || 'off',
+    ADM : process.env.ANTI_DELETE_MESSAGE || 'on',
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
         ? "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9" : "postgres://db_7xp9_user:6hwmTN7rGPNsjlBEHyX49CXwrG7cDeYi@dpg-cj7ldu5jeehc73b2p7g0-a.oregon-postgres.render.com/db_7xp9",
